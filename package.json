@@ -1,7 +1,7 @@
 {
-	"name": "react-hello-webapp",
-	"version": "1.0.1",
-	"description": "",
+	"name": "vendodetodoya-frontend",
+	"version": "1.0.0",
+	"description": "e-commerce",
 	"main": "index.js",
 	"scripts": {
 		"c9": "webpack-dev-server --config webpack.dev.js --host $IP --port $PORT",
@@ -11,7 +11,7 @@
 		"deploy": "node deploy-to-github.js"
 	},
 	"author": {
-		"name": "Alejandro Sanchez",
+		"name": "Ruth Cazana Rojas",
 		"url": "http://alesanchezr.com/"
 	},
 	"contributors": [
