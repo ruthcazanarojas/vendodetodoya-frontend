@@ -1,118 +1,161 @@
-.banner {
+// .banner {
+//     display: flex;
+//     flex-flow: row;
+//     flex-wrap: wrap;
+//     background-color:rgb(216, 140, 193);
+//     // max-height: 264px;
+//     width: 100%;
+//     margin-bottom: 15px;
+//     border-radius: 15px;
+//     -moz-border-radius: 15px;
+//     -webkit-border-radius: 15px;
+//     -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+//     -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+//     box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+//     // > img {
+//     //     // max-height: 100%;
+//     // }
+// }
 
-    background-color:rgb(216, 140, 193);
-    height: 200px;
-    width: 400px;
-    margin-bottom: 15px;
-    border-radius: 15px 15px 15px 15px;
-    -moz-border-radius: 15px 15px 15px 15px;
-    -webkit-border-radius: 15px 15px 15px 15px;
-    border: 0px solid #000000;
-    -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
-    -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
-    box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
-    
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.acciones {
+    padding: 1rem 0;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    @include media-breakpoint-up(md) {
+        justify-content: center;
+        gap: 1rem;
+    }
 }
 
 .bt-ventas {
-
     background-color:rgb(176, 136, 199);
-    height: 80px;
-    width: 80px;
-    margin: 10px;
-    border-radius: 200px 200px 200px 200px;
-    -moz-border-radius: 200px 200px 200px 200px;
-    -webkit-border-radius: 200px 200px 200px 200px;
-    float: left;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: white;
-    font-size: 12px;
-    -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
-    -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
-    box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
-}
-
-
-.bt-cambios {
-
-    background-color:rgb(233, 210, 0);
-    height: 80px;
-    width: 80px;
-    margin: 10px;
-    border-radius: 200px 200px 200px 200px;
-    -moz-border-radius: 200px 200px 200px 200px;
-    -webkit-border-radius: 200px 200px 200px 200px;
-    float: left;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: white;
-    font-size: 12px;
-    -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
-    -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
-    box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
-}
-
-.bt-regalos {
-
-    background-color:rgb(74, 221, 226);
-    height: 80px;
-    width: 80px;
-    margin: 10px;
-    border-radius: 200px 200px 200px 200px;
-    -moz-border-radius: 200px 200px 200px 200px;
-    -webkit-border-radius: 200px 200px 200px 200px;
-    float: left;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: white;
-    font-size: 12px;
-    -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
-    -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
-    box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
-}
-
-.bt-subastas {
-
-    background-color:rgb(253, 127, 23);
-    height: 80px;
-    width: 80px;
-    margin: 10px;
-    border-radius: 200px 200px 200px 200px;
-    -moz-border-radius: 200px 200px 200px 200px;
-    -webkit-border-radius: 200px 200px 200px 200px;
-    float: left;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: white;
-    font-size: 12px;
-    -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
-    -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
-    box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    // height: 80px;
+    // width: 80px;
+    // margin: 10px;
+    // border-radius: 200px 200px 200px 200px;
+    // -moz-border-radius: 200px 200px 200px 200px;
+    // -webkit-border-radius: 200px 200px 200px 200px;
+    // float: left;
+    // text-align: center;
+    // padding-top: 30px;
+    // padding-bottom: 30px;
+    // color: white;
+    // font-size: 12px;
     
 }
 
-.bt-hogar {
-
-    background-color:rgb(16, 230, 158);
-    height: 100px;
-    width: 100px;
-    margin: 10px;
-    border-radius: 15px 15px 15px 15px;
-    -moz-border-radius: 15px 15px 15px 15px;
-    -webkit-border-radius: 15px 15px 15px 15px;
-    float: left;
-    text-align: center;
+.bt-accion {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    //     text-align: center;
     color: white;
-    font-size: 12px;
+    // background-color:black;
     -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
     -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
     box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    .bt-name {
+        display: none;
+    }
+    .bt-letter {
+        font-size: 3rem;
+    }
+    @include media-breakpoint-up(md) {
+        width: 120px;
+        height: 120px;
+        .bt-letter {
+            display: none;
+        }
+        .bt-name {
+            display: inline;
+        }
+    }
 }
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.bt-cambios {
+    background-color:rgb(233, 210, 0);
+//     // height: 80px;
+//     // width: 80px;
+//     // margin: 10px;
+//     // border-radius: 200px 200px 200px 200px;
+//     // -moz-border-radius: 200px 200px 200px 200px;
+//     // -webkit-border-radius: 200px 200px 200px 200px;
+//     // float: left;
+//     // text-align: center;
+//     // padding-top: 30px;
+//     // padding-bottom: 30px;
+//     // color: white;
+//     // font-size: 12px;
+//     // -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+//     // -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+//     // box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+}
+
+.bt-regalos {
+    background-color:rgb(74, 221, 226);
+//     // height: 80px;
+//     // width: 80px;
+//     // margin: 10px;
+//     // border-radius: 200px 200px 200px 200px;
+//     // -moz-border-radius: 200px 200px 200px 200px;
+//     // -webkit-border-radius: 200px 200px 200px 200px;
+//     // float: left;
+//     // text-align: center;
+//     // padding-top: 30px;
+//     // padding-bottom: 30px;
+//     // color: white;
+//     // font-size: 12px;
+//     // -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+//     // -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+//     // box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+}
+
+.bt-subastas {
+    background-color:rgb(253, 127, 23);
+//     // height: 80px;
+//     // width: 80px;
+//     // margin: 10px;
+//     // border-radius: 200px 200px 200px 200px;
+//     // -moz-border-radius: 200px 200px 200px 200px;
+//     // -webkit-border-radius: 200px 200px 200px 200px;
+//     // float: left;
+//     // text-align: center;
+//     // padding-top: 30px;
+//     // padding-bottom: 30px;
+//     // color: white;
+//     // font-size: 12px;
+//     // -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+//     // -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+//     // box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+}
+
+// .bt-hogar {
+
+//     // background-color:rgb(16, 230, 158);
+//     // height: 100px;
+//     // width: 100px;
+//     // margin: 10px;
+//     // border-radius: 15px 15px 15px 15px;
+//     // -moz-border-radius: 15px 15px 15px 15px;
+//     // -webkit-border-radius: 15px 15px 15px 15px;
+//     // float: left;
+//     // text-align: center;
+//     // color: white;
+//     // font-size: 12px;
+//     // -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+//     // -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+//     // box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+// }
 
 .bt-papeleria {
 
@@ -290,6 +333,5 @@
     box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
 }
 footer {
-
     background-color: violet;
 }
