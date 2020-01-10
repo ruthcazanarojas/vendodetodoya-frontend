@@ -1,0 +1,295 @@
+.banner {
+
+    background-color:rgb(216, 140, 193);
+    height: 200px;
+    width: 400px;
+    margin-bottom: 15px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    border: 0px solid #000000;
+    -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    
+}
+
+.bt-ventas {
+
+    background-color:rgb(176, 136, 199);
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    float: left;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 12px;
+    -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+}
+
+
+.bt-cambios {
+
+    background-color:rgb(233, 210, 0);
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    float: left;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 12px;
+    -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+}
+
+.bt-regalos {
+
+    background-color:rgb(74, 221, 226);
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    float: left;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 12px;
+    -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+}
+
+.bt-subastas {
+
+    background-color:rgb(253, 127, 23);
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    float: left;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 12px;
+    -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    
+}
+
+.bt-hogar {
+
+    background-color:rgb(16, 230, 158);
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+}
+
+.bt-papeleria {
+
+    background-color:rgb(16, 230, 158);
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    > img {width: 60px !important};
+}
+
+.bt-construccion {
+
+    background-color:rgb(16, 230, 158);
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    > img {width: 60px !important}
+}
+
+.bt-bebes {
+
+    background-color:rgb(16, 230, 158);
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+}
+
+.bt-juguetes {
+
+    background-color:rgb(16, 230, 158);
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+}
+
+.bt-libros {
+
+    background-color:rgb(16, 230, 158);
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+}
+
+.bt-ropa {
+
+    background-color:rgb(16, 230, 158);
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+}
+
+.bt-bodegon {
+
+    background-color:rgb(16, 230, 158);
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+}
+
+.bt-electronicos {
+
+    background-color:rgb(16, 230, 158);
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+}
+
+// .bt-celulares {
+
+
+// }
+.categorias {
+    
+    box-align: center;
+}
+
+.bt-categoria {
+
+    padding-top: 2px;
+    padding-bottom: 30px;
+    > img {width: 80px};
+    background-color:rgb(16, 230, 158);
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    -webkit-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    -moz-box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+    box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
+}
+footer {
+
+    background-color: violet;
+}
