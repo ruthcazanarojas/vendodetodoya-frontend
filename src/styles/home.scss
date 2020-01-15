@@ -27,7 +27,7 @@
     justify-content: space-between;
     @include media-breakpoint-up(md) {
         justify-content: center;
-        gap: 1rem;
+        margin-right: 1rem;
     }
 }
 
@@ -139,6 +139,36 @@
 //     // box-shadow: 10px 10px 30px -12px rgba(116,128,130,0.92);
 }
 
+.categorias {
+
+    padding: 1rem 0;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @include media-breakpoint-up(md) {
+        justify-content: center;
+        gap: 1rem;
+        flex-flow: column;
+    }
+}
+
+.img-categorias {
+
+    // display: flex;
+    // flex-flow: column;
+    // flex-wrap: nowrap;
+    width: 100%;
+    > img {
+        width: 100%;
+    }
+
+}
+
+.txt-categorias {
+
+    width: 100%;
+}
 // .bt-hogar {
 
 //     // background-color:rgb(16, 230, 158);
@@ -316,15 +346,19 @@
 
     padding-top: 2px;
     padding-bottom: 30px;
-    > img {width: 80px};
+    //> img {width: 80px};
     background-color:rgb(16, 230, 158);
-    height: 100px;
-    width: 100px;
+    // height: 100px;
+    // width: 100px;
+    @include media-breakpoint-up(md) {
+        padding: 1rem;
+        width: 150px;
+    }
     margin: 10px;
     border-radius: 15px 15px 15px 15px;
     -moz-border-radius: 15px 15px 15px 15px;
     -webkit-border-radius: 15px 15px 15px 15px;
-    float: left;
+    // float: left;
     text-align: center;
     color: white;
     font-size: 12px;

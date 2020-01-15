@@ -47,7 +47,7 @@ export const Home = () => (
 				</Carousel.Caption>
 			</Carousel.Item>
 		</Carousel>
-		<div className="acciones">
+		<div className="d-flex flex-row acciones">
 			<div className="bt-accion bt-ventas">
 				<span className="bt-name">{"VENTAS"}</span>
 				<span className="bt-letter">{"V"}</span>
@@ -67,10 +67,14 @@ export const Home = () => (
 		</div>
 
 		<div className="principal">
-			<div className="categorias">
-				<div className="bt-categoria bt-hogar">
-					<img src={images.sofa} />
-					{"HOGAR"}
+			<div className="d-flex flex-md-column col-md-3 categorias">
+				<div className="d-flex flex-column flex-md-row bt-categoria bt-hogar">
+					<div className="img-categorias">
+						<img src={images.sofa} />
+					</div>
+					<div className="txt-categorias">
+						<h3>HOGAR</h3>
+					</div>
 				</div>
 				<div className="bt-categoria bt-papeleria">
 					<img src={images.papeleria} />
